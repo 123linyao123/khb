@@ -1,9 +1,10 @@
 {
-    "spider": "./jar/hh.jar;md5;4d4928e4505e301355aedfa1e43e9d71",
+    "spider": "./jar/hh.jar;md5;e5d54e7f113a9eb29a7ff6bbebe7eca9",
 	"wallpaper": "https://饭太硬.ga/深色壁纸/api.php",
 
 	"sites": [
 	    {"key":"js豆瓣","name":"🖌豆瓣┃推荐","type":3,"api":"https://ftyyy.tk/JS/lib/drpy.min.js","ext":"http://ftyyy.tk/JS/js/drpy.js","searchable": 0,"quickSearch": 0,"filterable": 1},
+	    {"key": "直播","name": "🅿电视直播", "type": 4,"playerType":1, "api": "http://120.53.102.254/live2?url=https://agit.ai/fantaiying/fty/raw/branch/master/live.txt"},
 	     {"key":"csp_Alist1","name":"🎾Alist┃网盘","type":3,"api":"csp_AList","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/alist.json"},
 	    {"key":"csp_Bili","name":"👨‍👩‍👦‍👦哔哩┃合辑","type":3,"api":"csp_Bili","searchable":1,"quickSearch":0,"filterable":1,"ext":"./json/bili.json"},
 	    {"key":"csp_Paper","name":"📜纸条┃4K","type":3,"api":"csp_Paper","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/alitoken.json"},
