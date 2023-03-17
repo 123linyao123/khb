@@ -3,8 +3,8 @@
 	"wallpaper": "https://饭太硬.ga/深色壁纸/api.php",
 
 	"sites": [
-	    {"key":"js豆瓣","name":"🖌豆瓣┃推荐","type":3,"api":"https://ftyyy.tk/JS/lib/drpy.min.js","ext":"http://ftyyy.tk/JS/js/drpy.js","searchable": 0,"quickSearch": 0,"filterable": 1},
-	    {"key": "直播","name": "🅿电视直播", "type": 4,"playerType":1, "api": "http://120.53.102.254/live2?url=https://agit.ai/fantaiying/fty/raw/branch/master/live.txt"},
+	    {"key":"js豆瓣","name":"🖌豆豆┃饭推荐首页","type":3,"api":"https://agit.ai/fantaiying/fty/raw/branch/master/JS/lib/drpy.min.js","ext":"http://agit.ai/fantaiying/fty/raw/branch/master/JS/js/drpy.js","searchable": 0,"quickSearch": 0,"filterable": 1},
+	    {"key":"直播","name":"📡电视┃直播","type":3,"playerType":1,"api":"https://agit.ai/fantaiying/fty/raw/branch/master/JS/js/直播转点播.js","ext":"Box醒人室$https://agit.ai/fantaiying/fty/raw/branch/master/live.txt#影视范精选$https://ghproxy.com/raw.githubusercontent.com/fanmingming/live/main/tv/m3u/global.m3u&&&https://api.caonm.net/api/mc/index.php"},
 	     {"key":"csp_Alist1","name":"🎾Alist┃网盘","type":3,"api":"csp_AList","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/alist.json"},
 	    {"key":"csp_Bili","name":"👨‍👩‍👦‍👦哔哩┃合辑","type":3,"api":"csp_Bili","searchable":1,"quickSearch":0,"filterable":1,"ext":"./json/bili.json"},
 	    {"key":"csp_Paper","name":"📜纸条┃4K","type":3,"api":"csp_Paper","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/alitoken.json"},
@@ -17,6 +17,7 @@
 	    {"key":"csp_77","name":"💓七七┃App","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
 	    {"key":"csp_AppMr","name":"👻明明┃App","type":3,"api":"csp_AppMr","searchable":1,"quickSearch":1,"filterable":1},
 	    {"key":"csp_apple","name":"🍎苹果┃App","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"filterable":1},
+	    {"key":"csp_Lib","name": "👐利奥┃直连","type": 3,"api": "csp_Libvio","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://tv.libvio.cc/"},
 	    {"key":"csp_fantuan","name":"🍙饭团┃直连","type":3,"api":"csp_Fantuan","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.fantuanhd.com"},
 	    {"key":"csp_Vofl","name":"🌀Voflix┃直连","type":3,"api":"csp_Voflix","searchable":1,"quickSearch":1,"filterable":1},
 	    {"key":"csp_Xinsj","name":"🆕新视觉┃直连","type":3,"api":"csp_Xinsj","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.6080dy2.com"},
@@ -24,10 +25,9 @@
 	  
 	    {"key":"csp_DiDuan" ,"name":"⏮️低端┃直连","type":3,"api":"csp_Ddrk","click": "ddys.tv;#vjsp > button","searchable":1,"quickSearch":1,"filterable":0},
 	    {"key":"csp_Cokemv","name":"🥤可乐┃直连","type":3,"api":"csp_Cokemv","playerType":2,"searchable":1,"quickSearch":1,"filterable":1},
-	    {"key":"csp_Auete","name":"🐼Auete┃直连","type": 3,"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1},
-	    {"key":"csp_Bttoo","name":"🥂BTToo┃直连","type":3,"api":"csp_Bttwoo","searchable":1,"quickSearch":1,"filterable":1},
+	    {"key":"csp_Auete","name":"🐼奥特┃直连","type": 3,"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1},
+	    {"key":"csp_Bttoo","name":"🥂比特┃直连","type":3,"api":"csp_Bttwoo","searchable":1,"quickSearch":1,"filterable":1},
 	    
-	    {"key":"csp_Lib","name": "👐LIBvio┃直连","type": 3,"api": "csp_Libvio","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://libvio.me"},
         {"key":"csp_zxzj","name":"🖥️️在线之家┃直连","type":3,"api":"csp_Zxzj","searchable":1,"quickSearch":1,"filterable":1},
         {"key":"csp_zxzjH3","name":"🖥️在线之家┃影视","type":3,"api":"csp_ZxzjH3","m3u8ads": "hd.youyhn.com","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.zxzjhd.com"},
         {"key":"csp_Lgyy","name": "🌈蓝光┃直连","type": 3,"api": "csp_Lgyy","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://www.lgyy.tv"},
@@ -110,6 +110,58 @@
 	     "type":3,
 	     "url":"Web"},
 {
+		"name": "bozrc",
+		"type": 0,
+		"url": "https://jx.bozrc.com:4433/player/?url=",
+		"ext": {
+			"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "mgtv", "芒果", "letv", "乐视", "pptv", "PPTV", "sohu", "bilibili", "哔哩哔哩", "哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}
+		}   
+	},
+	{
+            "name": "星辰云解析",
+            "type": 1,
+            "url": "https://json.key521.cn/api/?key=a161dfbdceebcd60c72bc1a87b1f3281&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "企鹅",
+                    "IQiYi",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "YouKu",
+                    "优酷",
+                    "sohu",
+                    "SoHu",
+                    "搜狐",
+                    "letv",
+                    "LeShi",
+                    "乐视",
+                    "imgo",
+                    "mgtv",
+                    "MangGuo",
+                    "芒果",
+                    "SLYS4k",
+                    "BYGA",
+                    "luanzi",
+                    "AliS",
+                    "dxzy",
+                    "bilibili",
+                    "QEYSS",
+                    "xigua",
+                    "西瓜视频",
+                    "腾讯视频",
+                    "奇艺视频",
+                    "优酷视频",
+                    "芒果视频",
+                    "乐视视频"
+                    
+                ]
+            }
+        },
+        {
             "name": "喵喵喵",
             "type": 1,
             "url": "https://vip.blbo.cc:2222/api/?key=9f230d947680de53b544be747efa8e54&url=",
@@ -153,50 +205,7 @@
                 ]
             }
         },
-{
-            "name": "星辰云解析",
-            "type": 1,
-            "url": "http://xn--wnup5g.xn--z7x900a.love:63/Art1/analysis.php?v=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "企鹅",
-                    "IQiYi",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "YouKu",
-                    "优酷",
-                    "sohu",
-                    "SoHu",
-                    "搜狐",
-                    "letv",
-                    "LeShi",
-                    "乐视",
-                    "imgo",
-                    "mgtv",
-                    "MangGuo",
-                    "芒果",
-                    "SLYS4k",
-                    "BYGA",
-                    "luanzi",
-                    "AliS",
-                    "dxzy",
-                    "bilibili",
-                    "QEYSS",
-                    "xigua",
-                    "西瓜视频",
-                    "腾讯视频",
-                    "奇艺视频",
-                    "优酷视频",
-                    "芒果视频",
-                    "乐视视频"
-                    
-                ]
-            }
-        },
+
 
 {
             "name": "255",
