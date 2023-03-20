@@ -36,7 +36,7 @@
         {"key":"csp_Bd","name":"📣哔嘀┃直连","type":3,"api":"csp_Bdys01","searchable":1,"quickSearch":1,"filterable":1},
         {"key":"csp_Nmys","name":"👨‍🌾农民┃直连","type":3,"api":"csp_Nmys","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/nmys.json"},
         {"key":"csp_Ysgc","name":"🏭工厂┃直连","type":3,"api":"csp_Ysgc","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.ysgc.fun"},
-        {"key":"csp_panghu","name":"🐯胖虎┃直连","type":3,"api":"csp_Panghu","searchable":1,"quickSearch":1,"filterable":1},
+        {"key":"csp_panghu","name":"🐯胖虎┃直连","type":3,"api":"csp_Panghu","m3u8ads": "hd.youyhn.com","searchable":1,"quickSearch":1,"filterable":1},
 	    {"key":"csp_555","name":"👗555┃直连","type":3,"api":"csp_Ys555","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.555dyy1.com"},    
 	    {"key":"csp_Nkdy","name":"🗽耐看┃直连","type":3,"api":"csp_Nkdy","searchable":1,"quickSearch":1,"filterable":1},
 	    {"key":"csp_Hlsp","name":"💣黑料┃直连","type":3,"api":"csp_Hlsp","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/黑料.json"},	    
