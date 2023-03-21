@@ -30,7 +30,7 @@
 	    {"key":"csp_Bttoo","name":"🥂比特┃直连","type":3,"api":"csp_Bttwoo","searchable":1,"quickSearch":1,"filterable":1},
 	    
         {"key":"csp_zxzj","name":"🖥️在线┃直连","type":3,"api":"csp_Zxzj","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.zxzj.org"},
-        {"key":"csp_zxzjH3","name":"🖥️在线之家┃H3","type":3,"api":"csp_ZxzjH3","m3u8ads": "hd.youyhn.com","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.zxzjhd.com"},
+        {"key":"csp_zxzjH3","name":"🖥️在线┃H3","type":3,"api":"csp_ZxzjH3","m3u8ads": "hd.youyhn.com","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.zxzjhd.com"},
         {"key":"csp_Lgyy","name": "🌈蓝光┃直连","type": 3,"api": "csp_Lgyy","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://www.lgyy.vip"},
         {"key":"csp_Smdyy","name": "🐎神马┃直连","type": 3,"api": "csp_Smdyy","searchable": 1,"quickSearch": 1,"filterable": 1},
         {"key":"csp_Bd","name":"📣哔嘀┃直连","type":3,"api":"csp_Bdys01","searchable":1,"quickSearch":1,"filterable":1},
@@ -39,7 +39,7 @@
         {"key":"csp_panghu","name":"🐯胖虎┃直连","type":3,"api":"csp_Panghu","m3u8ads": "hd.youyhn.com","searchable":1,"quickSearch":1,"filterable":1},
 	    {"key":"csp_555","name":"5️⃣️555┃直连","type":3,"api":"csp_Ys555","m3u8ads": "hd.youyhn.com","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.555dyy1.com"}, 
 	    {"key":"csp_Nkdy","name":"🗽耐看┃直连","type":3,"api":"csp_Nkdy","m3u8ads": "hd.youyhn.com","searchable":1,"quickSearch":1,"filterable":1},
-	    {"key":"csp_Hlsp","name":"💣黑料┃直连","type":3,"api":"csp_Hlsp","m3u8ads": "hd.youyhn.com","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://饭太硬.ga/x/json/黑料.json"},    
+	    {"key":"csp_Hlsp","name":"💣黑料┃直连","type":3,"api":"csp_Hlsp","m3u8ads": "hd.youyhn.com","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/黑料.json"},    
 	    {"key":"csp_Jianying","name":"✨简影┃直连","type":3,"api":"csp_Jianying","searchable":1,"quickSearch":1,"filterable":1,"ext":"hjju123@qq.com$$$123456"},
 	    {"key":"csp_SP33","name":"🎞360┃解析","type":3,"api":"csp_SP33","searchable":1,"quickSearch":1,"filterable":1},
 		{"key":"Qtv","name":"🐧腾讯┃解析","type":3,"api":"csp_Qtv","searchable":1,"quickSearch":1,"filterable":1},
