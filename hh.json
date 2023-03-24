@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/hh.jar;md5;af94cc4d3c30f6cee8b8b20e7b70a0bc",
+    "spider": "./jar/hh.jar;md5;61bca6e5fd49bef5a2834109f23303a9",
 	"wallpaper": "https://饭太硬.ga/深色壁纸/api.php",
 
 	"sites": [
@@ -13,7 +13,7 @@
 	    {"key":"csp_kuaikan","name":"👀快看┃App","type":3,"api":"csp_Kuaikan","m3u8ads": "hd.youyhn.com","searchable":1,"quickSearch":1,"filterable":1},
 	    {"key":"csp_YQKAPP","name":"🎉一起看┃App","type":3,"api":"csp_YQKAPP","playerType":2,"m3u8ads": "hd.youyhn.com","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://api-tx.11ty.top"},
 	    {"key":"csp_AppTT","name":"🖼图图┃App","type":3,"api":"csp_AppTT","m3u8ads": "hd.youyhn.com","searchable":1,"quickSearch":1,"filterable":1,"ext":"tv$$$dlJYWXFYbkgqbmlsU1JLIyNkMFZ0OE1JdzRJQW1yY3I=$$$Y2hpbkpaUzdiKnpYbzZzWQ==$$$aHR0cDovL2FwaS50dDU4LnR2L2NvbmZpZy9uZXd0di5qc29uP3NzPQ=="},
-	    {"key":"csp_MeiJu69","name":"⚖️69美剧┃直连","type":3,"api":"csp_MeiJu69","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.69mj.com/"},
+	    {"key":"csp_FanYY","name":"💦剥饭┃云盘","type":3,"api":"csp_FanYY","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/alitoken.json"},	    
 	    {"key":"csp_BuLei","name":"⚡布雷┃直连","type":3,"api":"csp_BuLei","m3u8ads": "hd.youyhn.com","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://v.bulei.cc/"},
 	    {"key":"csp_apple","name":"🍎苹果┃App","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"filterable":1},
 	    {"key":"csp_Lib","name": "👐利奥┃直连","type": 3,"api": "csp_Libvio","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://tv.libvio.cc/"},
@@ -23,6 +23,7 @@
 	    {"key":"csp_77","name":"💓七七┃App","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
 	    {"key":"csp_AppMr","name":"👻明明┃App","type":3,"api":"csp_AppMr","m3u8ads": "hd.youyhn.com","searchable":1,"quickSearch":1,"filterable":1}, 
 	    {"key":"csp_Czsapp","name":"🧛厂长┃直连","type":3,"api":"csp_Czsapp","m3u8ads": "hd.youyhn.com","playerType":2,"searchable":1,"quickSearch":1,"filterable":1},
+	    {"key":"csp_MeiJu69","name":"⚖️69美剧┃直连","type":3,"api":"csp_MeiJu69","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.69mj.com/"},
 	  
 	    {"key":"csp_DiDuan" ,"name":"⏮️低端┃直连","type":3,"api":"csp_Ddrk","searchable":1,"quickSearch":1,"filterable":0},
 	    {"key":"csp_Cokemv","name":"🥤可乐┃直连","type":3,"api":"csp_Cokemv","playerType":2,"searchable":1,"quickSearch":1,"filterable":1},
@@ -70,7 +71,7 @@
 		{"key":"push","name":"🛴手机┃推送","type":3,"api":"csp_Push","searchable":0,"quickSearch":0,"selectable":0,"filterable":0,"ext":"./json/alitoken.json"},
 				
         {"key":"csp_XYQHiker皮皮鸭","name":"️🦆皮皮鸭┃嗅探","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQxb/皮皮鸭.json"},
-        {"key":"csp_XBPQ_4K","name":"🏺4K影院┃嗅探","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"./xbpq/4K影院.json"},
+        {"key":"csp_XYQHiker素白白","name":"🥬素白白┃嗅探","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":0,"ext":"./XYQxb/素白白.json"},
         	
 		{"key":"csp_Nbys","name":"🛫泥巴┃飞","type":3,"api":"csp_NiNi","searchable":1,"quickSearch":1,"filterable":1},
 		{"key":"csp_If101","name":"🦖If101┃飞","type":3,"api":"csp_If101","searchable":1,"quickSearch":1,"filterable":1},
