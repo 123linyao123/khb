@@ -93,10 +93,11 @@
         {"key":"csp_xp_yingba","name":"📹电影吧┃嗅探","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":1,"ext":"./xp/yingba.json"},    
         {"key":"csp_xpath_meiju56","name":"🦙美剧网┃嗅探","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"./xp/美剧网.json"}],
 	"parses": [
-	{"name": "解析聚合","type": 3,"url": "Demo"}, 
+	{"name": "Json聚合","type": 3,"url": "Demo"}, 
 	{"name": "Json并发","type": 2,"url": "Parallel"
 }, 
     {"name": "Json轮询","type": 2,"url": "Sequence"}, 
+    {"name": "Web聚合","type": 3,"url": "Web"},
 	{"name": "飞云","type": 1,"url": "http://124.221.180.169:999/api/?key=d35d10afa9183bb0c777b94a1a7f71c2&url="},    {"name": "星辰","type": 1,"url": "http://xn--wnup5g.xn--z7x900a.love:63/Art1/analysis.php?v="},
     {"name": "bozrc","type": 0,"url": "https://jx.bozrc.com:4433/player/?url=","header":{"User-Agent":"okhttp/4.1.0"}},
 	{"name" : "瞄影","type":0,"url":"http://www.miaoys.cc/vip/?url="},
