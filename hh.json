@@ -98,7 +98,7 @@
 }, 
     {"name": "Json轮询","type": 2,"url": "Sequence"}, 
     {"name": "Web聚合","type": 3,"url": "Web"},
-	{"name": "飞云","type": 1,"url": "http://124.221.180.169:999/api/?key=d35d10afa9183bb0c777b94a1a7f71c2&url="},    {"name": "星辰","type": 1,"url": "http://xn--wnup5g.xn--z7x900a.love:63/Art1/analysis.php?v="},
+	{"name": "飞云","type": 1,"url": "http://124.221.180.169:999/api/?key=d35d10afa9183bb0c777b94a1a7f71c2&url="},    {"name": "星辰","type": 1,"url": "http://我不是.肥猫.love:63/Art1/analysis.php?v="},
     {"name": "bozrc","type": 0,"url": "https://jx.bozrc.com:4433/player/?url=","header":{"User-Agent":"okhttp/4.1.0"}},
 	{"name" : "瞄影","type":0,"url":"http://www.miaoys.cc/vip/?url="},
     {"name": "刚刚","type": 1,"url": "http://jx.fuqizhishi.com:63/API.php?appkey=feimao&url="},
