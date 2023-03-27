@@ -1,70 +1,447 @@
-{
-    "规则名": "pipiya",
-    "规则作者": "xx",
-    "请求头参数": "User-Agent$PC_UA",
-    "网页编码格式": "UTF-8",
-    "是否开启获取首页数据": "1",
-    "首页推荐链接": "https://www.pipiya.cc/",
-    "首页列表数组规则": "body&&.list-vod",
-    "首页片单列表数组规则": ".public-list-box",
-    "首页片单是否Jsoup写法": "1",
-    "首页片单标题": "a&&title",
-    "首页片单链接": "a&&href",
-    "首页片单图片": ".lazy&&data-original",
-    "首页片单副标题": ".public-list-prb&&Text",
-    "首页片单链接加前缀": "https://www.pipiya.cc",
-    "分类起始页码": "1",
-    "分类链接": "https://www.pipiya.cc/vodtype/{cateId}/area/{area}/class/{class}/year/{year}.html",
-    "分类名称": "电影&国产剧&美剧&日韩剧&泰剧&其他剧&动漫",
-    "分类名称替换词": "20&26&21&28&24&27&25",
-    "筛选数据": "ext",
-    "筛选地区名称": "大陆&香港&台湾&美国&韩国&日本&法国&英国&德国&泰国&印度&西班牙&意大利&加拿大&其他",
-    "筛选地区替换词": "*",
-    "筛选年份名称": "2023&2022&2021&2020&2019&2018&2017&2016&2015&2014&2013&2012&2011&2010&2009&2008&2007&2006&2005&2004",
-    "筛选排序名称": "时间&人气&评分",
-    "筛选排序替换词": "time&hits&score",
-    "分类截取模式": "1",
-    "分类列表数组规则": "body&&.list-vod&&.public-list-box",
-    "分类片单是否Jsoup写法": "1",
-    "分类片单标题": "a&&title",
-    "分类片单链接": "a&&href",
-    "分类片单图片": ".lazy&&data-original",
-    "分类片单副标题": ".public-list-prb&&Text",
-    "分类片单链接加前缀": "https://www.pipiya.cc",
-    "搜索请求头参数": "User-Agent$PC_UA",
-    "搜索链接": "https://www.pipiya.cc/vodsearch.html?wd={wd}",
-    "POST请求数据": "",
-    "搜索截取模式": "1",
-    "搜索列表数组规则": "body&&.search-box.flex.rel",
-    "搜索片单是否Jsoup写法": "1",
-    "搜索片单图片": ".lazy&&data-original",
-    "搜索片单标题": ".thumb-txt.cor4.hide&&Text",
-    "搜索片单链接": ".public-list-exp&&href",
-    "搜索片单副标题": ".public-list-prb.hide.ft2&&Text",
-    "搜索片单链接加前缀": "https://www.pipiya.cc",
-    "搜索片单链接加后缀": "",
-    "链接是否直接播放": "0",
-    "直接播放链接加前缀": "https://www.pipiya.cc",
-    "直接播放链接加后缀": "#isVideo=true#",
-    "直接播放直链视频请求头": "",
-    "详情是否Jsoup写法": "1",
-    "类型详情": ".slide-info,3&&Text!类型 :",
-    "年代详情": ".slide-info,0&&.slide-info-remarks,1&&Text",
-    "地区详情": ".slide-info,0&&.slide-info-remarks,2&&Text",
-    "演员详情": ".slide-info,2&&Text!演员 :",
-    "简介详情": "#height_limit&&Text",
-    "线路列表数组规则": "body&&.nav-swiper&&a",
-    "线路标题": "Text!",
-    "播放列表数组规则": "body&&.anthology-list-play",
-    "选集列表数组规则": "li",
-    "选集标题链接是否Jsoup写法": "1",
-    "选集标题": "a&&Text",
-    "选集链接": "a&&href",
-    "是否反转选集序列": "0",
-    "选集链接加前缀": "https://www.pipiya.cc",
-    "选集链接加后缀": "",
-    "分析MacPlayer": "0",
-    "是否开启手动嗅探": "1",
-    "手动嗅探视频链接关键词": ".mp4#.m3u8#.flv#.m3u8?#vkey=",
-    "手动嗅探视频链接过滤词": ".html#=http#=https"
-}
+<!DOCTYPE html><!-- This web page is copied by "https://bazhan.wang" --><html lang="en"><head><meta name="360-analysis-id" content="1k1c1k1e39331c2v"><meta charset="utf-8"><!--!‫‭‬‫‬‪‫‭‬‫‬‬‭‫‭‭‪‭‫‬‪‬‏‫-->
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <link rel="shortcut icon" type="image/x-icon" href="z/favicon.ico">
+    <title>饭太硬 | 导航</title>
+    <meta name="description" content="饭太硬的自留地">
+    <meta name="keywords" content="饭太硬">
+    <link rel="stylesheet" type="text/css" href="z/css/h.9c69ed6c.css">
+    <link rel="stylesheet" type="text/css" href="z/css/nekotora.99cf6f8c.css">
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137340638-1"></script><!--!‫‭‬‫‬‪‫‭‬‫‬‬‭‫‭‭‪‭‫‬‪‬‏‫-->
+    <script>function a() { dataLayer.push(arguments) } window.dataLayer = window.dataLayer || [], a("js", new Date), a("config", "UA-137340638-1");</script>
+  <head>
+  <meta  charset=utf-8"/>
+      <style>
+          mark {
+              background-color:#CCCCCC; font-weight:bold;
+          }
+      </style>  
+<style>
+    .toast-bottom-center {
+        position: absolute;
+        left: 30px;
+        right: 10px;
+        top: 20px;
+    }
+</style><!--!‫‭‬‫‬‪‫‭‬‫‬‬‭‫‭‭‪‭‫‬‪‬‏‫--></head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3NF90DWZG8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3NF90DWZG8');
+</script>
+
+<body><div class="background">
+    <canvas id="startrack"></canvas>
+    <div class="cover"></div>
+</div>
+<div class="main">
+    <div class="ch intro">
+        <div class="container">
+            <div class="hello">
+                <h1 id="slogan">Hi~</h1>
+                <!--随机文字信息在\js\page.3a0791a3.js中修改-->
+                <h2>
+                    <div class="circle"> <span></span> <span></span>
+                        <span></span>
+                    </div> 饭
+                </h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="find ch">
+        <div class="container links">
+            <h2 class="chtitle">TVbox <span>接口（点击复制）</span></h2>
+            <div class="clear col-3">
+
+                <div class="item">
+                    <div class="bg" style="background-color:#1ba050"></div>
+                    <div class="inner copy-btn" id="tangsan" data-clipboard-text="https://hutool.ml/tang">
+                        <span>唐三</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="bg" style="background-color:#c4e00f"></div>
+                    <div class="inner copy-btn" id="junyu" data-clipboard-text="https://ghproxy.com/raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json">
+                        <span>FongMI</span>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="bg" style="background-color:#1f3cfb"></div>
+                    <div class="inner copy-btn" id="qiaoer" data-clipboard-text="http://pandown.pro/tvbox/tvbox.json">
+                        <span>巧技</span>
+                    </div>
+                </div>
+                  <div class="item">
+                    <div class="bg" style="background-color:#5d4106"></div>
+                    <div class="inner copy-btn" id="xiaoya" data-clipboard-text="http://home.jundie.top:81/top98.json"> 
+                           <span>俊于</span>
+                    </div>
+                </div>
+                 
+                <div class="item">
+                    <div class="bg" style="background-color:#d50cf0"></div>
+                    <div class="inner copy-btn" id="yunxing" data-clipboard-text="https://ghproxy.com/raw.githubusercontent.com/lm317379829/PyramidStore/pyramid/py.json">
+                        <span>霜辉月明 py</span>
+                    </div>
+                </div>                
+                <div class="item">
+                    <div class="bg" style="background-color:#680fe4"></div>
+                    <div class="inner copy-btn" id="cainisi" data-clipboard-text="https://tvbox.cainisi.cf">
+                        <span>菜妮丝 XBPQ</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="bg" style="background-color:#0ff9ca"></div>
+                    <div class="inner copy-btn" id="feimao" data-clipboard-text="https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json">                       <span>高天流云 js</span>
+                  </div>
+                </div>
+                  <div class="item">
+                    <div class="bg" style="background-color:#f30b0b"></div>
+                    <div class="inner copy-btn" id="shenqi" data-clipboard-text="http://我不是.肥猫.love:63/接口禁止贩卖">
+                        <span>肥猫</span>
+                    </div>
+                </div>         
+                 <div class="item">
+                    <div class="bg" style="background-color:#28a9e0"></div>
+                    <div class="inner copy-btn" id="yunxing" data-clipboard-text="http://饭太硬.ga/tv">
+                        <span>饭太硬</span>
+                    </div>
+                </div>      
+            </div>
+        </div>
+    </div>
+
+    <div class="gate ch">
+        <div class="container links">
+            <h2 class="chtitle">开源壳子 <span>TVbox相关免费资源推荐</span></h2>
+            <div class="clear col-3">
+                <a href="https://t.me/TVBoxxoo/27464" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="http://ftyyy.tk/json/Telegram_2019_Logo.svg.png"> </div>
+                        <div class="inner">
+                            <h5>Box醒人室</h5>
+                            <p>饭太硬分享交流群！分享喜悦是加倍的！来交个朋友吧~</p>
+                        </div>
+                    </div>
+                </a>
+              <a href="https://t.me/TVBoxxoo/27436" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="http://ftyyy.tk/json/BAI1.jpg"> </div>
+                        <div class="inner">
+                            <h5>ChatGPT中文群</h5>
+                            <p>ChatGPT人工智能自然语言处理工具 THE B.AI   快来白嫖</p>
+                        </div>
+                    </div>
+                </a>
+            <a href="https://xxooo.ml/" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://ftyyy.tk/json/td.png">
+                        </div>
+                        <div class="inner">
+                            <h5>太短</h5>
+                            <p>缩短链接，屌！也不是很短~</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://js.xxooo.ml" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://ftyyy.tk/json/tk.png"> </div>
+                        <div class="inner">
+                            <h5>太快</h5>
+                            <p>GitHub 文件加速</p>
+                        </div>
+                    </div>
+                </a-->
+                
+                <a href="https://github.com/FongMi/TV" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://ftyyy.tk/json/ystv.png">
+                        </div>
+                        <div class="inner">
+                            <h5>影视TV 开源仓库</h5>
+                            <p>台湾活雷锋FongMI开发，免费简洁强大的自动更新播放器</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://t.me/+Zcj4gVQhHykwMGU1" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://ftyyy.tk/json/ystv.png">
+                        </div>
+                        <div class="inner">
+                            <h5>影视TV 发布频道</h5>
+                            <p>片头片尾快捷标记，最新EXO支持软硬解，无缝换线路换源</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/q215613905/TVBoxOS" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://ftyyy.tk/json/tvb.png">
+                        </div>
+                        <div class="inner">
+                            <h5>俊于 开源仓库</h5>
+                            <p>Tvbox源码加更，免费，延续官仓风格的版本</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://t.me/TVBoxOSC" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://ftyyy.tk/json/tvb.png">
+                        </div>
+                        <div class="inner">
+                            <h5>俊于版 发布频道</h5>
+                            <p>其中的 #q215613905版本</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/takagen99/Box" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://ftyyy.tk/json/taka.png">
+                        </div>
+                        <div class="inner">
+                            <h5>takagen99 开源仓库</h5>
+                            <p>也是基于Tvbox官仓源码开发，美化UI，支持webdav</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://t.me/TVBoxOSC" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://ftyyy.tk/json/taka.png">
+                        </div>
+                        <div class="inner">
+                            <h5>takagen99 发布频道</h5>
+                            <p>其中的 #takagen99</p>
+                        </div>
+                    </div>
+                </a>
+                 <a href="https://t.me/bh_tvbox" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://ftyyy.tk/json/bh.jpg">
+                        </div>
+                        <div class="inner">
+                            <h5>宝盒 发布频道</h5>
+                            <p>Tvbox源码二开，美化UI，自动换源，支持多订阅</p>
+                        </div>
+                    </div>
+                </a>
+                 <a href="https://t.me/yishij" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://ftyyy.tk/json/ysj.png">
+                        </div>
+                        <div class="inner">
+                            <h5>异视界 发布频道</h5>
+                            <p>Tvbox源码二开，手机竖屏版，UI新颖，功能不断进化中</p>
+                        </div>
+                    </div>
+                </a>
+                 <a href="https://mp.weixin.qq.com/s/HkP28e_EcNV6kvkCeJG1FQ" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://ftyyy.tk/json/ysc.png">
+                        </div>
+                        <div class="inner">
+                            <h5>影视仓 发布频道</h5>
+                            <p>Tvbox源码二开，支持多仓订阅，投屏，升级阿里播放器</p>
+                        </div>
+                    </div>
+                </a>
+                 <a href="http://qiqiv.cn/tvbox/" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://ftyyy.tk/json/tnb.png">
+                        </div>
+                        <div class="inner">
+                            <h5>太能编</h5>
+                            <p>接口配置编辑器，支持加解密</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="http://饭太硬.ga/jm/" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://ftyyy.tk/json/jm.jpg">
+                        </div>
+                        <div class="inner">
+                            <h5>TVbox 加密接口解密</h5>
+                            <p>加密接口解密，可用于解密各种网络加密接口</p>
+                        </div>
+                    </div>
+                </a>
+              <a href="https://mp.weixin.qq.com/s/LaJzev56UIcUK6sm-aOBDA" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://ftyyy.tk/json/tvfan.jpg">
+                        </div>
+                        <div class="inner">
+                            <h5>TVbox 本地包频道</h5>
+                            <p>专业本地化配置包，可用于影视TV和TVbox等壳直接食用</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://t.me/PlutoPlayer" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://ftyyy.tk/json/xiaoya.jpg">
+                        </div>
+                        <div class="inner">
+                            <h5>小雅aliat群</h5>
+                            <p>小雅教你docker部署alist，打造自己的4K私人片库</p>
+                        </div>
+                    </div>
+                </a>
+                 <a href="https://www.shangui.cc/" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://ftyyy.tk/json/LOGOshangui.png">
+                        </div>
+                        <div class="inner">
+                            <h5>山鬼网络</h5>
+                            <p>分享各种精品站点，各种源码、App使用教程</p>
+                        </div>
+                    </div>
+                </a>
+              <a href="https://blog.sxbai.com" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://blog.sxbai.com/upload/2022/11/user.jpeg">
+                        </div>
+                        <div class="inner">
+                            <h5>舒夏博客</h5>
+                            <p>分享各种免费搭建项目教程，适合搭配TVbox使用</p>
+                        </div>
+                    </div>
+                </a>
+             <a href="https://cjk.ftyyy.repl.co" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://replit.com/cdn-cgi/image/width=32,quality=80,format=auto/https://storage.googleapis.com/replit/images/1674353835290_bad6c11f3277ed7822d0fbf382ebb523.jpeg">
+                        </div>
+                        <div class="inner">
+                            <h5>Kodi插件库</h5>
+                            <p>霜辉月明维护的Kodi插件库</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://gitcode.net/qq_32394351/dr_py" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://gitcode.net/qq_32394351/dr_py/-/raw/1fe0e082b1ceacc4469d7f175a605cc2edf0bab0/static/img/icon.png">
+                        </div>
+                        <div class="inner">
+                            <h5>道长DRPY项目</h5>
+                            <p>可直接用于影视TV和TVbox软件数据源使用</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://c.runoob.com" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://static.runoob.com/images/c-runoob-logo.ico"> </div>
+                        <div class="inner">
+                            <h5>菜鸟工具</h5>
+                            <p>常用工具大全,包括js美化base64加解密</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://jihulab.com" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://jihulab.com/assets/favicon-72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef.png">
+                        </div>
+                        <div class="inner">
+                            <h5>极狐代码托管</h5>
+                            <p>稳定速度快，个人私用接口托管足够了~</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://bar.ssstab.com/" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://bar.ssstab.com/favicon-32x32.png"> </div>
+                        <div class="inner">
+                            <h5>sssbar搜索</h5>
+                            <p>工具箱搜索网站，非常的方便且强大</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://adzhp.net/" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://adzhp.net/wp-content/uploads/2019/02/A.png"> </div>
+                        <div class="inner">
+                            <h5>爱达杂货铺</h5>
+                            <p>收集那些有用的东西</p>
+                        </div>
+                    </div>
+                </a>
+                  <a href="https://www.henghost.com/hostsdfsdf.php?641433abb9d97kwnZqp4" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://ftyyy.tk/json/hckj.png">
+                        </div>
+                        <div class="inner">
+                            <h5>恒创科技</h5>
+                            <p>高速免备案,香港日本特价机器一年200多,本站托管服务商</p>
+                        </div>
+                    </div>
+                </a> 
+                  <a href="https://music.shangui.cc/" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://ftyyy.tk/json/player.png">
+                        </div>
+                        <div class="inner">
+                            <h5>跨站音乐播放器</h5>
+                            <p>免费无广告的HTML5音乐播放器</p>
+                        </div>
+                    </div>
+                </a> 
+                <a href="https://www.foodieguide.com/iptvsearch/?s=" target="_blank">
+                    <div class="item">
+                        <div class="avatar"> <img src="https://ftyyy.tk/json/iptv.png">
+                        </div>
+                        <div class="inner">
+                            <h5>直播源搜索引擎</h5>
+                            <p>国内外电视直播源搜索，m3u8、flv、rtsp……</p>
+                        </div>
+                    </div>
+                </a> 
+                
+            </div>
+            <!--底部波浪-->
+            <div id="hans-bolang"></div><script src="https://api.vvhan.com/api/bolang"></script>
+        </div>
+        <div class="push"></div><!--push在此为footer占位，高度和footer的一样-->
+         </div>
+        <div class="footer ch">
+            <div class="container">
+                <h4>© 2023 Powered by 饭</h4>
+                <a target="_blank" href="http://my.henghost.com/aff.php?aff=8889" title="本网站托管于 恒创科技 " alt="本网站托管于 恒创科技">本网站托管于 <mark>恒创科技</mark></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="z/js/page.3a0791a3.js"></script>
+    <!--以下为点击复制调用js-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script><!--!‫‭‬‫‬‪‫‭‬‫‬‬‭‫‭‭‪‭‫‬‪‬‏‫-->
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script><!--!‫‭‬‫‬‪‫‭‬‫‬‬‭‫‭‭‪‭‫‬‪‬‏‫-->
+    <script>
+        $('.copy-btn').click(function () {
+            let id = $(this).attr('id')
+            copy('#' + id)
+        })
+        function copy(id) {
+            let clipboard = new ClipboardJS(id);
+            clipboard.on('success', function (e) {
+                console.log(e);
+                alert('复制成功，请前往壳设置里粘贴接口')
+                clipboard.destroy();//解决多次弹窗问题
+            });
+            clipboard.on('error', function (e) {
+                console.log(e);
+                alert('请重新复制')
+                clipboard.destroy();//解决多次弹窗问题
+            });
+        }
+    </script><!--!‫‭‬‫‬‪‫‭‬‫‬‬‭‫‭‭‪‭‫‬‪‬‏‫-->
+
+</div>
+<!--播放器-->
+<div id="music" key="641afe42b5e29" api="https://music.shangui.cc"></div><script id="xplayer" src="https://music.shangui.cc/api/PlayerJs/id/641afe42b5e29" ></script>
+<!--雪花API-->
+<script src="https://api.vvhan.com/api/snow"></script>
+
+
+
+</body></html><!--!‫‭‬‫‬‪‫‭‬‫‬‬‭‫‭‭‪‭‫‬‪‬‏‫-->
